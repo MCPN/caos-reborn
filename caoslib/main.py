@@ -47,6 +47,9 @@ if __name__ == '__main__':
         test(args)
     elif 'style' in args:
         style(args)
+    else:
+        puts(colored.red(f"Unknown command."))
+        puts(colored.yellow(f"Check Github for docs: https://github.com/DoomzD/caos-reborn"))
 
     # menu = login(session)
     # print(menu)
